@@ -9,3 +9,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 }
+
+
+/*
+* Ref: https://data-flair.training/blogs/build-simple-calculator-app-android-studio/
+* */

@@ -14,25 +14,31 @@
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
-        <TextView
-            android:id="@+id/txt_operation"
-            android:gravity="end"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_margin="2dp"
-            android:text="@string/operation"
-            android:textSize="64sp"
-            />
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/txt_result"
-            android:gravity="end"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_margin="2dp"
-            android:text="@string/result"
-            android:textSize="64dp"
-            />
+            <TextView
+                android:id="@+id/txt_operation"
+                android:gravity="end"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="2dp"
+                android:text="@string/operation"
+                android:textSize="64sp"
+                />
+
+            <TextView
+                android:id="@+id/txt_result"
+                android:gravity="end"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="2dp"
+                android:text="@string/result"
+                android:textSize="64sp"
+                />
+        </LinearLayout>
 
         <TableLayout
             android:layout_width="match_parent"
