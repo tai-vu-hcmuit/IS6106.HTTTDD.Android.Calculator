@@ -11,7 +11,7 @@
     <string name="bt_minus">-</string>
     <string name="bt_equal">=</string>
     <string name="bt_dot">.</string>
-    <string name="bt_negative">+/-</string>
+    <string name="bt_change_sign">+/-</string>
     <string name="bt_0">0</string>
     <string name="bt_1">1</string>
     <string name="bt_2">2</string>
