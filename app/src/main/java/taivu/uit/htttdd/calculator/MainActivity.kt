@@ -184,7 +184,7 @@ class MainActivity : AppCompatActivity() {
     fun onClickButtonDot(view: View) {
         var txtOperation = findViewById<TextView>(R.id.txt_operation);
 
-        this.operation = this.addOperationForView(this.operation, ".")
+        this.operation = this.addNumberForCalculate(this.operation, ".")
         txtOperation.text = this.operation;
     }
     fun onClickButtonCalculate(view: View) {
